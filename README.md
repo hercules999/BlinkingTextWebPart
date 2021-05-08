@@ -2,9 +2,8 @@
 
 ## Summary
 
-Short summary on functionality and used technologies.
+A web part which will consistently display blinking text.
 
-[picture of the solution in action, if possible]
 
 ## Used SharePoint Framework Version
 
