@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "965c6391-dc44-4bd4-843b-c73407e79e3f",
+  "alias": "BlinkingTextWebPartWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "BlinkingTextWebPart" },
+    "description": { "default": "a webpart to display blinking text" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Blinking Text!"
+    }
+  }]
+}
